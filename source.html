@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header data-testid="header">
+      <h1>Welcome to My Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#" data-testid="homeLink">Home</a></li>
+          <li><a href="#" data-testid="aboutLink">About</a></li>
+          <li><a href="#" data-testid="contactLink">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="intro">
+        <h2>Introduction</h2>
+        <p>This is an example of a web page for testing.</p>
+      </section>
+      <section id="form-section">
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            data-testid="usernameField"
+          />
+
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            data-testid="passwordField"
+          />
+
+          <button type="submit" data-testid="submitBtn">Sign Up</button>
+        </form>
+      </section>
+    </main>
+    <footer data-testid="footer">
+      <p>&copy; 2024 My Website</p>
+    </footer>
+  </body>
+</html>
